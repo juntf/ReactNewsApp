@@ -1,0 +1,50 @@
+.input-group {
+
+  //高度
+  height: 40px;
+
+  border: 1px solid #fff;
+
+  //上下空余
+  margin-bottom: 20px ;
+
+  //圆角
+  border-radius: 6px;
+
+  display: flex;
+
+  i {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+
+    //居中
+    text-align: center;
+
+    //上下
+    line-height: 40px;
+  }
+
+
+  input {
+
+    //撑满
+    flex: 1;
+
+    //背景颜色透明
+    background: transparent;
+
+    border: 0;
+
+    color: white;
+  }
+
+  input::-webkit-input-placeholder{
+
+    //placeholder字体的颜色
+    color: white;
+
+    // placeholder里面的字体的透明度
+    opacity: 0.6;
+  }
+}
