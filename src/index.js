@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 // import './index.css';
 
 // 引入核心文件
-import App from './pages/App';
+// import App from './pages/App';
 // import * as serviceWorker from './serviceWorker';
+
+import HomePage from './pages/HomePage';
 
 
 // 引入初始化样式
@@ -14,13 +16,15 @@ import "normalize.css";
 import "./assets/styles/core.less";
 
 
+// 引入antd css;
+import 'antd-mobile/dist/antd-mobile.css';
 
 
 ReactDOM.render(
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
-    <App />,
+    <HomePage />,
   document.getElementById('root')
 );
 
